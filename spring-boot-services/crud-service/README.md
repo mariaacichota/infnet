@@ -1,4 +1,4 @@
-# math-discipline-service
+# crud-service
 
 Projeto Spring Boot para gerenciamento de produtos com uma API RESTful.
 A aplicação expõe endpoints que permitem criar, consultar, atualizar e deletar produtos, utilizando os métodos HTTP GET, POST, PUT e DELETE.
