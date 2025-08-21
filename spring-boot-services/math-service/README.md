@@ -1,4 +1,4 @@
-# math-discipline-service
+# math-service
 Serviço web REST sem estado para realizar operações matemáticas básicas. O serviço deve disponibilizar cinco endpoints distintos para as operações de adição, subtração, multiplicação, divisão e exponenciação. Cada endpoint deve ser acessível via métodos GET e POST, ambos com o mesmo comportamento.
 
 ## Organização do Projeto
