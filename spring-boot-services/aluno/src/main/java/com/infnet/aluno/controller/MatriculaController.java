@@ -1,5 +1,11 @@
 package com.infnet.aluno.controller;
 
+import com.infnet.aluno.model.Aluno;
+import com.infnet.aluno.model.Matricula;
+import com.infnet.aluno.service.MatriculaService;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
+
 @RestController
 @RequestMapping("/matriculas")
 public class MatriculaController {

@@ -1,5 +1,11 @@
 package com.infnet.aluno.service;
 
+import com.infnet.aluno.model.Aluno;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+
 class AlunoServiceTest {
 
     @Autowired

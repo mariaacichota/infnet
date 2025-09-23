@@ -1,5 +1,10 @@
 package com.infnet.aluno.controller;
 
+import com.infnet.aluno.model.Aluno;
+import com.infnet.aluno.service.AlunoService;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
+
 @RestController
 @RequestMapping("/alunos")
 public class AlunoController {

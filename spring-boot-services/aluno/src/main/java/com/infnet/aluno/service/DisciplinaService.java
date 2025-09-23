@@ -1,5 +1,10 @@
 package com.infnet.aluno.service;
 
+import com.infnet.aluno.model.Disciplina;
+import com.infnet.aluno.repository.DisciplinaRepository;
+import org.springframework.stereotype.Service;
+import java.util.List;
+
 @Service
 public class DisciplinaService {
     private final DisciplinaRepository disciplinaRepository;

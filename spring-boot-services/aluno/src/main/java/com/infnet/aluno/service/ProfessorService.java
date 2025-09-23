@@ -1,5 +1,12 @@
 package com.infnet.aluno.service;
 
+import com.infnet.aluno.model.Professor;
+import com.infnet.aluno.repository.ProfessorRepository;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+
+import java.util.Optional;
+
 @Service
 public class ProfessorService {
 

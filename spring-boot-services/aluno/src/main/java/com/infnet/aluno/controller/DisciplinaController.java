@@ -1,5 +1,10 @@
 package com.infnet.aluno.controller;
 
+import com.infnet.aluno.model.Disciplina;
+import com.infnet.aluno.service.DisciplinaService;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
+
 @RestController
 @RequestMapping("/disciplinas")
 public class DisciplinaController {

@@ -1,5 +1,15 @@
 package com.infnet.aluno.service;
 
+import com.infnet.aluno.model.Aluno;
+import com.infnet.aluno.model.Disciplina;
+import com.infnet.aluno.model.Matricula;
+import com.infnet.aluno.repository.AlunoRepository;
+import com.infnet.aluno.repository.DisciplinaRepository;
+import com.infnet.aluno.repository.MatriculaRepository;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
 @Service
 public class MatriculaService {
     private final MatriculaRepository matriculaRepository;
