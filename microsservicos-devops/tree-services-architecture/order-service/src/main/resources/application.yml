@@ -1,0 +1,5 @@
+server:
+  port: 8082
+
+catalog:
+  base-url: http://catalog-service:8081

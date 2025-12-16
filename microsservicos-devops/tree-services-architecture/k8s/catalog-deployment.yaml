@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: catalog-service
+  namespace: assessment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: catalog-service
+  template:
+    metadata:
+      labels:
+        app: catalog-service
+    spec:
+      containers:
+        - name: catalog-service
+          image: SEU_USUARIO_DOCKER/catalog-service:1.0
+          ports:
+            - containerPort: 8081
+          env:
+            - name: CATALOG_DB_HOST
+              value: postgres
+            - name: CATALOG_DB_USER
+              value: catalog
+            - name: CATALOG_DB_PASSWORD
+              value: catalog

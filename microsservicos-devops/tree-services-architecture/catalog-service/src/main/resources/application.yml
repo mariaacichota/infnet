@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${CATALOG_DB_HOST:localhost}:5432/catalogdb
+    username: ${CATALOG_DB_USER:catalog}
+    password: ${CATALOG_DB_PASSWORD:catalog}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8081
